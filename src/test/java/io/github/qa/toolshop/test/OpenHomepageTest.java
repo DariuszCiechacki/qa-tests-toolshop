@@ -7,7 +7,31 @@ import org.junit.jupiter.api.Test;
 class OpenHomepageTest extends BaseTest {
 
     @Test
-    void openHomePage() {
+    void openHomePage1() {
+        navigateToHomePage();
+        Assertions.assertTrue(page().title().toLowerCase().contains("google"));
+    }
+
+    @Test
+    void openHomePage2() {
+        navigateToHomePage();
+        Assertions.assertTrue(page().title().toLowerCase().contains("google"));
+    }
+
+    @Test
+    void openHomePage3() {
+        navigateToHomePage();
+        Assertions.assertTrue(page().title().toLowerCase().contains("google"));
+    }
+
+    @Test
+    void openHomePage4() {
+        navigateToHomePage();
+        Assertions.assertTrue(page().title().toLowerCase().contains("google"));
+    }
+
+    @Test
+    void openHomePage5() {
         navigateToHomePage();
         Assertions.assertTrue(page().title().toLowerCase().contains("google"));
     }
