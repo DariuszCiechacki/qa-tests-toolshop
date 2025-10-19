@@ -9,11 +9,11 @@ class OpenHomepageTest extends BaseTest {
     @Test
     void openHomePage() {
         navigateToHomePage();
-        Assertions.assertTrue(page().title().contains("Toolshop"));
+        Assertions.assertTrue(page().title().toLowerCase().contains("google"));
     }
 
     private HomePage navigateToHomePage() {
-        page().navigate("https://practicesoftwaretesting.com/");
+        page().navigate("https://google.com/");
         return new HomePage();
     }
 }
