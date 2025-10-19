@@ -1,12 +1,10 @@
-package io.github.qa.toolshop.component.page;
+package io.github.qa.toolshop.page;
 
-import com.microsoft.playwright.Page;
+import io.github.qa.toolshop.PlaywrightContext;
 
-public abstract class ToolshopPage {
-    private final Page page;
+public abstract class ToolshopPage extends PlaywrightContext {
 
-    protected ToolshopPage(Page page) {
-        this.page = page;
+    protected ToolshopPage() {
         ensureIsOnPage();
     }
 
