@@ -44,4 +44,10 @@
         </plugins>
     </build>
 
+    <repositories>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/dariuszciechacki/qa-fwk-playwright-java</url>
+        </repository>
+    </repositories>
 </project>

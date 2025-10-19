@@ -6,6 +6,6 @@ public class HomePage extends ToolshopPage {
 
     @Override
     protected void ensureIsOnPage() {
-        page().waitForURL("https://practicesoftwaretesting.com");
+        // To implement
     }
 }

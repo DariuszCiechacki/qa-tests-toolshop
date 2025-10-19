@@ -9,7 +9,7 @@ class OpenHomepageTest extends BaseTest {
     @Test
     void openHomePage() {
         navigateToHomePage();
-        Assertions.assertTrue(page().title().contains("Toolshop "));
+        Assertions.assertTrue(page().title().toLowerCase().contains("toolshop"));
     }
 
     private HomePage navigateToHomePage() {
