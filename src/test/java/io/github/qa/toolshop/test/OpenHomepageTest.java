@@ -7,37 +7,13 @@ import org.junit.jupiter.api.Test;
 class OpenHomepageTest extends BaseTest {
 
     @Test
-    void openHomePage1() {
+    void openHomePage() {
         navigateToHomePage();
-        Assertions.assertTrue(page().title().toLowerCase().contains("google"));
-    }
-
-    @Test
-    void openHomePage2() {
-        navigateToHomePage();
-        Assertions.assertTrue(page().title().toLowerCase().contains("google"));
-    }
-
-    @Test
-    void openHomePage3() {
-        navigateToHomePage();
-        Assertions.assertTrue(page().title().toLowerCase().contains("google"));
-    }
-
-    @Test
-    void openHomePage4() {
-        navigateToHomePage();
-        Assertions.assertTrue(page().title().toLowerCase().contains("google"));
-    }
-
-    @Test
-    void openHomePage5() {
-        navigateToHomePage();
-        Assertions.assertTrue(page().title().toLowerCase().contains("google"));
+        Assertions.assertTrue(page().title().toLowerCase().contains("toolshop"));
     }
 
     private HomePage navigateToHomePage() {
-        page().navigate("https://google.com/");
+        page().navigate("https://practicesoftwaretesting.com/");
         return new HomePage();
     }
 }

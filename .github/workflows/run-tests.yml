@@ -2,7 +2,7 @@ name: Run Playwright Tests
 
 on:
   push:
-    branches: [ build/add-run-tests-workflow ] # change to main
+    branches: [ main ]
 
 jobs:
   test:
