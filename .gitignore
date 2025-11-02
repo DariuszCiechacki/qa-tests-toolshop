@@ -10,6 +10,9 @@ target/
 *.iml
 *.ipr
 
+### Allure Report ###
+*.allure
+
 ### Eclipse ###
 .apt_generated
 .classpath
@@ -34,3 +37,4 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/.allure/
